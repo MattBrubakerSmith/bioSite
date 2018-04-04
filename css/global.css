@@ -1,0 +1,40 @@
+/* Atom Level */
+p, a, li, button {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Limelight', serif;
+}
+
+h1 {
+	font-size: 4.084em;
+	line-height: 1.2em;
+}
+
+h2 {
+	font-size: 3.142em;
+	line-height: 1.1em;
+}
+
+h3 {
+	font-size: 2.417em;
+	line-height: 1em;
+}
+
+h4 {
+	font-size: 1.859em;
+	line-height: .95em;
+}
+
+h5 {
+	font-size: 1.43em;
+	line-height: .9em;
+}
+
+h6 {
+	font-size: 1.1em;
+	line-height: .85em;
+}
