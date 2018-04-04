@@ -1,8 +1,24 @@
-/* Atom Level */
-p, a, li, button {
+/*** ATOM STYLES ***/
+
+body {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* Text Atom Styles */
+p, a, li, button, figcaption {
 	font-family: 'Dosis', sans-serif;
 	font-weight: 300;
 	font-size: 1em;
+}
+
+figcaption {
+	font-style: italic;
+	font-weight: 500;
+	text-align: center;
+	text-indent: -2%;
+
+	color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -37,4 +53,122 @@ h5 {
 h6 {
 	font-size: 1.1em;
 	line-height: .85em;
+}
+
+/* Image and Graphic Atom Styles */
+
+img {
+	width: 100%;
+	max-width: 1000px;
+}
+
+button {
+	font-weight: 500;
+	color: white;
+	background-color: rgb(106, 44, 62);
+	
+	border: none;
+	outline: 2px solid rgb(207, 69, 32);
+	outline-offset: 3px;
+	
+	margin: 5px;
+	padding: 8px 16px;
+
+	transition: transform 500ms;
+}
+
+button:hover {
+	transform: scale(1.05, 1.05);
+	cursor: pointer;
+}
+
+/* Color Styles */
+
+.red-text {
+	color: rgb(106, 44, 62);
+}
+
+.orange-text {
+	color: rgb(207, 69, 32);
+}
+
+.red-background {
+	background-color: rgb(106, 44, 62);
+}
+
+.orange-background {
+	background-color: rgb(207, 69, 32);
+}
+
+.red-outline {
+	outline: 2px solid rgb(106, 44, 62);
+	outline-offset: 3px;
+	margin: 5px;
+}
+
+.orange-outline {
+	outline: 2px solid rgb(207, 69, 32);
+	outline-offset: 3px;
+	margin: 5px;
+}
+
+/*** MOLECULE STYLES ***/
+/* I think I accidentally made organisms... */
+
+/* More changes to come when I implement media queries.*/
+
+/* Perspective Content Block Styles */
+.perspective-content-block {
+	width: 95%;
+
+	/* 
+		I start doing some more advanced stuff here, so I will pepper in some 
+		explanatory comments for anyone interested. 
+	*/
+
+	/* Defines perspective for 3D rotated child elements */
+	perspective: 800px;
+	-webkit-perspective: 800px;
+	perspective-origin: top left;
+	-webkit-perspective-origin: top left;
+
+	/* 
+		Using flexboxes for responsiveness. Check out http://the-echoplex.net/flexyboxes/ if you're interedted in playing around with them.
+		They are intimidating at first.
+	*/
+	display: flex;
+	flex-direction: row;
+	flex-flow: nowrap;
+	align-items: top;
+
+	margin-bottom: 70px;
+}
+
+.perspective-content-block figure {
+	/* Rotates the figure on the Y axis from the perspective-origin of it's parent element. */
+	transform: rotateY(12deg);
+	min-width: 65%;
+	margin: 0px;
+
+	background-color: rgb(106, 44, 62);
+
+	outline: 2px solid rgb(207, 69, 32);
+	outline-offset: 3px;
+	padding: 3px;
+	margin: 5px;
+}
+
+.perspective-content-block div {
+	/* Rotates the figure on the Y axis from the perspective-origin of it's parent element. */
+	transform: rotateY(-12deg);
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: none;
+	align-items: center;
+	justify-content: center;
+}
+
+.perspective-content-block div h3 {
+	margin-bottom: 0px;
 }
