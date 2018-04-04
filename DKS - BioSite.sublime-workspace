@@ -4,20 +4,96 @@
 		"selected_items":
 		[
 			[
+				"m",
+				"margin-bottom"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"fle",
+				"flex-direction"
+			],
+			[
+				"per",
+				"perspective-origin"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"rot",
+				"rotateY()"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"sc",
+				"scale()"
+			],
+			[
+				"ou",
+				"outline"
+			],
+			[
+				"ro",
+				"rotateZ()"
+			],
+			[
+				"re",
+				"red-background"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"out",
+				"outline-offset"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
 				"h",
 				"head\tTag"
 			],
 			[
-				"back",
-				"background-image"
-			],
-			[
 				"tran",
 				"transform"
-			],
-			[
-				"padd",
-				"padding-top"
 			],
 			[
 				"colums",
@@ -44,20 +120,8 @@
 				"background-color"
 			],
 			[
-				"text",
-				"text-decoration"
-			],
-			[
 				"list",
 				"list-style-type"
-			],
-			[
-				"font",
-				"font-weight"
-			],
-			[
-				"fon",
-				"font-family"
 			],
 			[
 				"op",
@@ -100,10 +164,6 @@
 				"margin"
 			],
 			[
-				"rot",
-				"rotateZ()"
-			],
-			[
 				"i",
 				"italic"
 			],
@@ -130,10 +190,6 @@
 			[
 				"cente",
 				"centerX"
-			],
-			[
-				"margi",
-				"margin-top"
 			],
 			[
 				"mar",
@@ -308,16 +364,8 @@
 				"overflow-x"
 			],
 			[
-				"in",
-				"inline-block"
-			],
-			[
 				"mat",
 				"materialsRoutes\talias"
-			],
-			[
-				"m",
-				"modules\tdirectory"
 			],
 			[
 				"Product",
@@ -400,10 +448,6 @@
 				"createFileFromStorageFile\tmethod"
 			],
 			[
-				"re",
-				"result\tproperty"
-			],
-			[
 				"Js",
 				"JSON\tinterface"
 			],
@@ -470,50 +514,6 @@
 			[
 				"const",
 				"constructor\tkeyword"
-			],
-			[
-				"m-0",
-				"m-0-b"
-			],
-			[
-				"wi",
-				"width"
-			],
-			[
-				"m-",
-				"m-20-b"
-			],
-			[
-				"page-",
-				"page-subheader"
-			],
-			[
-				"Su",
-				"Subscription\talias"
-			],
-			[
-				"test",
-				"testFile"
-			],
-			[
-				"print",
-				"print_r"
-			],
-			[
-				"evet",
-				"event\tparameter"
-			],
-			[
-				"sta",
-				"status"
-			],
-			[
-				"Reque",
-				"RequestOptions\talias"
-			],
-			[
-				"p",
-				"post\tmethod"
 			]
 		]
 	},
@@ -523,7 +523,25 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 150,
+				"buffer_size": 1036,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/patterns.css",
+			"settings":
+			{
+				"buffer_size": 217,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/global.css",
+			"settings":
+			{
+				"buffer_size": 2895,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -585,13 +603,20 @@
 	"expanded_folders":
 	[
 		"/C/Users/Matthew/Documents/GitHub/MattBrubakerSmith.github.io",
-		"/C/Users/Matthew/Documents/GitHub/MattBrubakerSmith.github.io/css"
+		"/C/Users/Matthew/Documents/GitHub/MattBrubakerSmith.github.io/css",
+		"/C/Users/Matthew/Documents/GitHub/MattBrubakerSmith.github.io/images",
+		"/C/Users/Matthew/Documents/GitHub/MattBrubakerSmith.github.io/js"
 	],
 	"file_history":
 	[
+		"/C/Users/Matthew/Documents/GitHub/MattBrubakerSmith.github.io/patterns.html",
+		"/C/Users/Matthew/Documents/GitHub/MattBrubakerSmith.github.io/css/patterns.css",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/bioSite_bradleyS/bioSite_bradleyS/patterns.html",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/bioSite_bradleyS/bioSite_bradleyS/css/atoms.css",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/bioSite_bradleyS/bioSite_bradleyS/index.html",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/bioSite_bradleyS/bioSite_bradleyS/.vscode/settings.json",
 		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/prj/index.html",
 		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/prj/css/styles.css",
-		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/bioSite_bradleyS/bioSite_bradleyS/.vscode/settings.json",
 		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/bell/bell/web/mSmith_EX4/mSmith_EX4.html",
 		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/bell/bell/web/mSmith_EX4/css/style.css",
 		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/bell/bell/web/mSmith_EX5/mSmith_EX5.html",
@@ -711,12 +736,7 @@
 		"/C/Users/Matthew/Documents/Acer/docs/site/app/store/index.js",
 		"/C/Users/Matthew/Documents/Websites/AMT/app/store/index.js",
 		"/C/Users/Matthew/Documents/Websites/AMT/app/store/reducers.js",
-		"/C/Users/Matthew/Documents/Acer/docs/site/app/styles/header.less",
-		"/C/Users/Matthew/Documents/Acer/docs/site/app/styles/_global.less",
-		"/C/Users/Matthew/Documents/Acer/docs/site/app/components/Header.js",
-		"/C/Users/Matthew/Documents/Acer/docs/site/app/components/elements/modal/empty/index.js",
-		"/C/Users/Matthew/Documents/Websites/AMT/app/components/pages/products/index.js",
-		"/C/Users/Matthew/Documents/Acer/docs/site/app/components/elements/test2/index.js"
+		"/C/Users/Matthew/Documents/Acer/docs/site/app/styles/header.less"
 	],
 	"find":
 	{
@@ -734,6 +754,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Sons",
+			"700px",
+			"800px",
+			"10deg",
+			"700px",
+			"p",
+			"div",
+			"block",
+			"25",
+			"article",
+			"section",
+			"div",
+			"4",
 			"container",
 			"X",
 			"deg",
@@ -778,15 +811,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 150,
+						"buffer_size": 1036,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								134,
-								134
+								887,
+								887
 							]
 						],
 						"settings":
@@ -799,6 +832,64 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/patterns.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								32
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/global.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2895,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2895,
+								2895
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
