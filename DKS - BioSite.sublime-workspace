@@ -1,0 +1,897 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"h",
+				"head\tTag"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"colums",
+				"columns"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"bord",
+				"border-color"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"scal",
+				"scaleY()"
+			],
+			[
+				"sca",
+				"scaleY()"
+			],
+			[
+				"skew",
+				"skewX()"
+			],
+			[
+				"sk",
+				"skewX()"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"tex",
+				"text-shadow"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"rot",
+				"rotateZ()"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"typ",
+				"types"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"center",
+				"centerY"
+			],
+			[
+				"cente",
+				"centerX"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"cleint",
+				"clientY"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"po",
+				"pointer-events"
+			],
+			[
+				"maw",
+				"max-width"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"bo",
+				"border-color"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"backr",
+				"background-color"
+			],
+			[
+				"produtc",
+				"products"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"border-bott",
+				"border-bottom-right-radius"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"image",
+				"imageNumber"
+			],
+			[
+				"trans",
+				"translateY"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"ove",
+				"overflow"
+			],
+			[
+				"padding-",
+				"padding-top"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"box-",
+				"box-sizing"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"scroll",
+				"scrollTop\t.scrollTop()"
+			],
+			[
+				"overfl",
+				"overflow-x"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"mat",
+				"materialsRoutes\talias"
+			],
+			[
+				"m",
+				"modules\tdirectory"
+			],
+			[
+				"Product",
+				"ProductPartial\talias"
+			],
+			[
+				"pro",
+				"providers\tproperty"
+			],
+			[
+				"Contact",
+				"ContactPageComponent\talias"
+			],
+			[
+				"Comm",
+				"CommonModule\talias"
+			],
+			[
+				"cons",
+				"constructor\tkeyword"
+			],
+			[
+				"im",
+				"implements\tkeyword"
+			],
+			[
+				"cus",
+				"CUSTOM_ELEMENTS_SCHEMA\talias"
+			],
+			[
+				"Ext",
+				"ExtrusionsCapabilities\talias"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fi",
+				"field"
+			],
+			[
+				"field",
+				"fieldName"
+			],
+			[
+				"pre",
+				"preg_filter"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"r",
+				"readAsArrayBuffer\tmethod"
+			],
+			[
+				"string",
+				"stringImg\tlocal var"
+			],
+			[
+				"Int",
+				"Int8Array\tinterface"
+			],
+			[
+				"read",
+				"readAsBinaryString\tmethod"
+			],
+			[
+				"on",
+				"onload\tproperty"
+			],
+			[
+				"Ms",
+				"MSApp\tinterface"
+			],
+			[
+				"cre",
+				"createFileFromStorageFile\tmethod"
+			],
+			[
+				"re",
+				"result\tproperty"
+			],
+			[
+				"Js",
+				"JSON\tinterface"
+			],
+			[
+				"array",
+				"arrayBuffer\tlocal var"
+			],
+			[
+				"Uin",
+				"Uint8Array\tinterface"
+			],
+			[
+				"msg",
+				"msgEnd"
+			],
+			[
+				"imgLine",
+				"imgLineStart"
+			],
+			[
+				"jso",
+				"JSON\tinterface"
+			],
+			[
+				"b",
+				"body\tconst"
+			],
+			[
+				"UR",
+				"URLSearchParams\talias"
+			],
+			[
+				"file_",
+				"file_get_contents"
+			],
+			[
+				"co",
+				"completeForm\tproperty"
+			],
+			[
+				"hidd",
+				"hidden-tablets-down"
+			],
+			[
+				"hea",
+				"Headers\talias"
+			],
+			[
+				"err",
+				"errMsg\tlet"
+			],
+			[
+				"Json",
+				"JsonpModule\talias"
+			],
+			[
+				"da",
+				"databaseService\tproperty"
+			],
+			[
+				"Data",
+				"DatabaseService\talias"
+			],
+			[
+				"const",
+				"constructor\tkeyword"
+			],
+			[
+				"m-0",
+				"m-0-b"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"m-",
+				"m-20-b"
+			],
+			[
+				"page-",
+				"page-subheader"
+			],
+			[
+				"Su",
+				"Subscription\talias"
+			],
+			[
+				"test",
+				"testFile"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"evet",
+				"event\tparameter"
+			],
+			[
+				"sta",
+				"status"
+			],
+			[
+				"Reque",
+				"RequestOptions\talias"
+			],
+			[
+				"p",
+				"post\tmethod"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 150,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 406.0,
+		"history":
+		[
+			"sublime.log_commands(True)",
+			"``sublime.log_commands(True)``",
+			"sublime.log_commands(True)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Matthew/Documents/GitHub/MattBrubakerSmith.github.io",
+		"/C/Users/Matthew/Documents/GitHub/MattBrubakerSmith.github.io/css"
+	],
+	"file_history":
+	[
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/prj/index.html",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/prj/css/styles.css",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/bioSite_bradleyS/bioSite_bradleyS/.vscode/settings.json",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/bell/bell/web/mSmith_EX4/mSmith_EX4.html",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/bell/bell/web/mSmith_EX4/css/style.css",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/bell/bell/web/mSmith_EX5/mSmith_EX5.html",
+		"/C/Users/Matthew/Downloads/Text",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/soriano_EX3/soriano_EX3/soriano_EX3.html",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/soriano_EX3/soriano_EX3/style.css",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/Wilson_EX3/Wilson_EX3/Wilson_EX3.html",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/Wilson_EX3/Wilson_EX3/styles.css",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/mSmith_EX3/mSmith_EX3/mSmith_EX3.html",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/Lierz_EX3/Lierz_EX3/Lierz_EX3.html",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/Lierz_EX3/Lierz_EX3/style.css",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/bell/bell/web/mSmith_EX3/mSmith_EX3.html",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/rBailey_EX3/rBailey_EX3/rBailey_EX3.html",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/rBailey_EX3/rBailey_EX3/styles/style.css",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/see_EX2/style.css",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/see_EX2/see_EX2.html",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/soriano_assignment_2.2/soriano_assignment_2.2/style.css",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/soriano_assignment_2.2/soriano_assignment_2.2/soriano_EX2.html",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/bell/bell/web/lierz_EX2/lierz_EX2/Lierz_EX2.html",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/bell/bell/web/lierz_EX2/lierz_EX2/style.css",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/bell/bell/web/mSmith_EX2/css/style.css",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/bell/bell/web/mSmith_EX2/mSmith_EX2.html",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/bell/bell/web/rBailey_EX2/rBailey_EX2.html",
+		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/bell/bell/web/css/style.css",
+		"/C/Users/Matthew/Documents/Acer/docs/bell/web/mSmith_EX5/mSmith_EX5.html",
+		"/C/Users/Matthew/Documents/Acer/docs/bell/web/mSmith_EX5/css/style.css",
+		"/C/Users/Matthew/Documents/Acer/docs/bell/web/mSmith_EX4/mSmith_EX4.html",
+		"/C/Users/Matthew/Documents/Acer/docs/bell/web/mSmith_EX4/css/style.css",
+		"/C/Users/Matthew/Documents/Acer/docs/bell/web/mSmith_EX3/css/style.css",
+		"/C/Users/Matthew/Documents/Acer/docs/bell/web/mSmith_EX3/mSmith_EX3.html",
+		"/C/Users/Matthew/Documents/Acer/docs/bell/web/mSmith_EX2/css/style.css",
+		"/C/Users/Matthew/Documents/Acer/docs/bell/web/mSmith_EX2/mSmith_EX2.html",
+		"/C/Users/Matthew/Documents/Acer/docs/bell/web/mSmith_EX1/mSmith_EX1.html",
+		"/C/Users/Matthew/Documents/Acer/docs/bell/web/Smith_EX1/Smith_EX1.html",
+		"/C/Users/Matthew/Desktop/3DTest/index.html",
+		"/C/Users/Matthew/Desktop/3DTest/new script.js",
+		"/Z/Projects/Websites/AGT/Images/Visual Guide Images/3D Models/SVG Exports/0001.svg",
+		"/C/Users/Matthew/Desktop/3DTest/fbx script.js",
+		"/C/Users/Matthew/Desktop/3DTest/json/20-1111.json",
+		"/C/xampp/htdocs/agt_template/js/angular/app/components/controllers/cart-preview-controller.js",
+		"/C/Users/Matthew/Desktop/AGT Tape Part Number Generator.js",
+		"/C/Users/Matthew/Documents/Acer/docs/exp/webpack.common.js",
+		"/C/Users/Matthew/Documents/Acer/docs/exp/package.json",
+		"/C/Users/Matthew/Documents/Acer/docs/exp/app/components/elements/3D/scene/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/exp/app/components/App.js",
+		"/C/Users/Matthew/Documents/Acer/docs/exp/dist/index.html",
+		"/C/Users/Matthew/Documents/Acer/docs/exp/app/components/elements/3D/classes/Mesh.js",
+		"/C/Users/Matthew/Documents/Acer/docs/exp/app/components/elements/3D/mesh/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/exp/app/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/exp/app/store/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/exp/app/store/reducers.js",
+		"/C/Users/Matthew/Documents/Acer/docs/exp/app/store/common-data/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/exp/app/store/common-data/duck/reducer.js",
+		"/C/Users/Matthew/Documents/Acer/docs/exp/app/store/common-data/duck/actions.js",
+		"/C/Users/Matthew/Documents/Acer/docs/exp/app/store/common-data/duck/types.js",
+		"/C/Users/Matthew/Documents/Acer/docs/exp/postcss.config.js",
+		"/C/Users/Matthew/Documents/Acer/docs/exp/webpack.dev.js",
+		"/C/Users/Matthew/Documents/Acer/docs/exp/webpack.prod.js",
+		"/C/Users/Matthew/Documents/Acer/docs/exp/.babelrc",
+		"/C/Users/Matthew/Documents/Acer/docs/exp/node_modules/webpack.dev.js",
+		"/C/Users/Matthew/Desktop/index.html",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/gallery/gallery-item/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/media/animations/test-eye.svg",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/test-eye/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/App.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/gallery.less",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/header.less",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/header-animations/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/bio/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/gallery/container/index.js",
+		"/Z/Projects/Product Database Files/AGT Products Table.sql",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/rogue-brain/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/rogue.less",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/media/images/brain.svg",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/bio.less",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/modal.less",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/magnifier/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/modal/full/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/Header.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/modal/controls/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/logo-and-portrait/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/_global.less",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/_variables.less",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/modal/piece/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/footer.less",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/Footer.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/store/portfolio/portfolio.js",
+		"/C/Users/Matthew/Documents/Websites/AMT/app/components/pages/products/default/index.js",
+		"/C/Users/Matthew/Documents/Websites/AMT/app/components/pages/products/default/product-link/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/store/portfolio/duck/reducers.js",
+		"/C/Users/Matthew/Documents/Websites/AMT/app/components/layout/StickyNav/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/store/portfolio/duck/actions.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/store/portfolio/duck/types.js",
+		"/C/Users/Matthew/Documents/Websites/AMT/app/styles/pages/about/about.less",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/media-queries.less",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/_global.css.map",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/Main.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/dist/index.html",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/store/portfolio/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/app/store/portfolio/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/app/store/portfolio/duck/types.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/app/store/portfolio/duck/actions.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/app/store/portfolio/duck/reducers.js",
+		"/C/Users/Matthew/Documents/Websites/AMT/app/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/app/components/App.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/app/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/app/components/elements/modal/full/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/app/components/Main.js",
+		"/C/Users/Matthew/Documents/Websites/AMT/app/store/products/duck/reducer.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/package.json",
+		"/C/Users/Matthew/Documents/Acer/docs/site/webpack.config.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/.babelrc",
+		"/C/Users/Matthew/Documents/Websites/AMT/package.json",
+		"/C/Users/Matthew/Documents/Acer/docs/site/app/store/portfolio/portfolio.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/app/media/portfolio/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/app/store/reducers.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/app/store/index.js",
+		"/C/Users/Matthew/Documents/Websites/AMT/app/store/index.js",
+		"/C/Users/Matthew/Documents/Websites/AMT/app/store/reducers.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/app/styles/header.less",
+		"/C/Users/Matthew/Documents/Acer/docs/site/app/styles/_global.less",
+		"/C/Users/Matthew/Documents/Acer/docs/site/app/components/Header.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/app/components/elements/modal/empty/index.js",
+		"/C/Users/Matthew/Documents/Websites/AMT/app/components/pages/products/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/app/components/elements/test2/index.js"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"container",
+			"X",
+			"deg",
+			"position",
+			"x",
+			"meshArray",
+			"x",
+			"this.props.canvasDimensions[1]",
+			"this.props.canvasDimensions[0]",
+			"cameraFov",
+			"canvasDimensions",
+			"window.innerHeight",
+			"window.innerWidth",
+			"ThreeJSCanvas",
+			"cube",
+			"300",
+			"window.innerHeight",
+			"window.innerWidth"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								134,
+								134
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "DKS - BioSite.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 175.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
