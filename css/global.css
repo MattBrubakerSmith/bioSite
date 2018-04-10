@@ -1,8 +1,7 @@
 /*** ATOM STYLES ***/
 
 body {
-	max-width: 1200px;
-	margin: 0 auto;
+	margin: 0;
 }
 
 /* Text Atom Styles */
@@ -23,6 +22,8 @@ figcaption {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Limelight', serif;
+	font-weight: 400;
+	margin: 0px;
 }
 
 h1 {
@@ -112,14 +113,11 @@ button:hover {
 	margin: 5px;
 }
 
-
-
 /*** MOLECULE STYLES ***/
-
 
 /* Image and Text Cards */
 .image-card figure {
-	margin: 10px;
+	margin: 7px 0px 0px 0px;
 
 	background-color: rgb(106, 44, 62);
 
@@ -147,19 +145,72 @@ button:hover {
 /* Navigation */
 
 .main-nav {
-	font-weight: 600;
-
-	list-style-type: none;
+	width: calc(100% - 2px);
+	padding: 2px;
+	margin: 5px -1px 0px -1px;
 
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-around;
+
+	outline: 2px solid rgb(207, 69, 32);
+	outline-offset: 2px;
+}
+
+.main-nav a {
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+
+	font-weight: 600;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+
+	background-color: rgb(106, 44, 62);
+	transition: background-color 200ms ease-out;
+}
+
+.main-nav a:hover {
+	background-color: rgb(207, 69, 32);
 }
 
 /*** ORGANISM STYLES ***/
 
-/* More changes to come when I implement media queries.*/
+/* Main Content Section */
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0px 20px;
+}
+
+@media screen and (max-width: 480px) {
+	main {
+		padding: 0px 10px;
+	}
+}
+
+/* Header Styles */
+header {
+	margin: 30px 0px 20px 0px;
+	text-align: center;
+}
+
+header h1 {
+	font-weight: bold;
+}
+
+@media screen and (max-width: 792px) {
+	header h1 {
+		font-size: 7vw;
+	}
+
+	header h2 {
+		font-size: 5vw;
+	}
+}
 
 /* Perspective Content Block Styles */
 .perspective-content-block {
@@ -186,22 +237,27 @@ button:hover {
 	align-items: top;
 	justify-content: space-around;
 
-	margin-bottom: 70px;
+	margin-bottom: 90px;
 }
 
-.perspective-content-block div:first-of-type {
+.perspective-content-block > div:first-of-type {
 	/* Rotates the first child div on the Y axis from the perspective-origin of it's parent element. */
 	transform: rotateY(12deg);
 }
 
-.perspective-content-block div:last-of-type {
+.perspective-content-block > div:last-of-type {
 	/* Rotates the last child div on the Y axis from the perspective-origin of it's parent element. */
 	transform: rotateY(-12deg);
 }
 
-.perspective-content-block div:last-of-type figure {
+.perspective-content-block > div:last-of-type figure {
 	/* Corrects offset that causes figure to extend outside the perspective-content-block bounds when a figure is on the right.
 		Will need to be fine-tuned with media queries.
 	 */
 	margin-right: 35px;
+
+	/* Fixes strange visual bug that affects the height of images in the right card of the perspective-content-block */
+	transform: scaleY(1.1);
+	transform-origin: top;
+	-webkit-transform-origin: top;
 }
