@@ -5,23 +5,63 @@
 		[
 			[
 				"font",
-				"font-weight"
+				"font-size"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"sp",
+				"space-around"
+			],
+			[
+				"spac",
+				"space-between"
+			],
+			[
+				"fle",
+				"flex-flow"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"tra",
+				"transform-origin"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"scale",
+				"scaleY()"
+			],
+			[
+				"text",
+				"text-shadow"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"fon",
+				"font-size"
 			],
 			[
 				"flex",
 				"flex-direction"
 			],
 			[
-				"margi",
-				"margin-right"
-			],
-			[
 				"paddi",
 				"padding-bottom"
-			],
-			[
-				"marg",
-				"margin-right"
 			],
 			[
 				"m",
@@ -40,10 +80,6 @@
 				"padding"
 			],
 			[
-				"fle",
-				"flex-direction"
-			],
-			[
 				"per",
 				"perspective-origin"
 			],
@@ -52,20 +88,12 @@
 				"inline"
 			],
 			[
-				"text",
-				"text-indent"
-			],
-			[
 				"rot",
 				"rotateY()"
 			],
 			[
 				"te",
 				"text-align"
-			],
-			[
-				"tra",
-				"transition"
 			],
 			[
 				"sc",
@@ -92,20 +120,12 @@
 				"font-size"
 			],
 			[
-				"fon",
-				"font-weight"
-			],
-			[
 				"back",
 				"background-color"
 			],
 			[
 				"h",
 				"head\tTag"
-			],
-			[
-				"tran",
-				"transform"
 			],
 			[
 				"colums",
@@ -248,10 +268,6 @@
 				"max-width"
 			],
 			[
-				"ma",
-				"max-width"
-			],
-			[
 				"text-",
 				"text-decoration"
 			],
@@ -306,10 +322,6 @@
 			[
 				"trans",
 				"translateY"
-			],
-			[
-				"min",
-				"min-width"
 			],
 			[
 				"ove",
@@ -502,18 +514,6 @@
 			[
 				"err",
 				"errMsg\tlet"
-			],
-			[
-				"Json",
-				"JsonpModule\talias"
-			],
-			[
-				"da",
-				"databaseService\tproperty"
-			],
-			[
-				"Data",
-				"DatabaseService\talias"
 			]
 		]
 	},
@@ -523,7 +523,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1244,
+				"buffer_size": 1565,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -532,7 +532,7 @@
 			"file": "patterns.html",
 			"settings":
 			{
-				"buffer_size": 2690,
+				"buffer_size": 4053,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -541,7 +541,7 @@
 			"file": "css/global.css",
 			"settings":
 			{
-				"buffer_size": 3404,
+				"buffer_size": 4371,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -752,6 +752,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"4",
+			"\tmargin: 0px;",
+			"2",
+			"perspective-content-block",
+			"ul",
 			"div",
 			"element",
 			"Sons",
@@ -802,7 +807,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -811,15 +816,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1244,
+						"buffer_size": 1565,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								889,
-								889
+								709,
+								709
 							]
 						],
 						"settings":
@@ -841,15 +846,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2690,
+						"buffer_size": 4053,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1461,
-								1461
+								3462,
+								3462
 							]
 						],
 						"settings":
@@ -858,10 +863,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1020.0,
+						"translation.y": 2220.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -870,15 +875,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3404,
+						"buffer_size": 4371,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1886,
-								1886
+								2624,
+								2624
 							]
 						],
 						"settings":
@@ -888,10 +893,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2661.0,
+						"translation.y": 3508.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -982,7 +987,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 192.0,
+	"side_bar_width": 138.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
