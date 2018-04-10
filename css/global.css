@@ -112,8 +112,52 @@ button:hover {
 	margin: 5px;
 }
 
+
+
 /*** MOLECULE STYLES ***/
-/* I think I accidentally made organisms... */
+
+
+/* Image and Text Cards */
+.image-card figure {
+	margin: 10px;
+
+	background-color: rgb(106, 44, 62);
+
+	outline: 2px solid rgb(207, 69, 32);
+	outline-offset: 3px;
+	padding: 3px;
+}
+
+.text-card {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: none;
+	align-items: center;
+	justify-content: center;
+}
+
+.text-card h3 {
+	margin-bottom: 0px;
+}
+
+.wide-card {
+	min-width: 60%;
+}
+
+/* Navigation */
+
+.main-nav {
+	font-weight: 600;
+
+	list-style-type: none;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
+/*** ORGANISM STYLES ***/
 
 /* More changes to come when I implement media queries.*/
 
@@ -140,35 +184,24 @@ button:hover {
 	flex-direction: row;
 	flex-flow: nowrap;
 	align-items: top;
+	justify-content: space-around;
 
 	margin-bottom: 70px;
 }
 
-.perspective-content-block figure {
-	/* Rotates the figure on the Y axis from the perspective-origin of it's parent element. */
+.perspective-content-block div:first-of-type {
+	/* Rotates the first child div on the Y axis from the perspective-origin of it's parent element. */
 	transform: rotateY(12deg);
-	min-width: 65%;
-	margin: 0px;
-
-	background-color: rgb(106, 44, 62);
-
-	outline: 2px solid rgb(207, 69, 32);
-	outline-offset: 3px;
-	padding: 3px;
-	margin: 5px;
 }
 
-.perspective-content-block div {
-	/* Rotates the figure on the Y axis from the perspective-origin of it's parent element. */
+.perspective-content-block div:last-of-type {
+	/* Rotates the last child div on the Y axis from the perspective-origin of it's parent element. */
 	transform: rotateY(-12deg);
-
-	display: flex;
-	flex-direction: column;
-	flex-wrap: none;
-	align-items: center;
-	justify-content: center;
 }
 
-.perspective-content-block div h3 {
-	margin-bottom: 0px;
+.perspective-content-block div:last-of-type figure {
+	/* Corrects offset that causes figure to extend outside the perspective-content-block bounds when a figure is on the right.
+		Will need to be fine-tuned with media queries.
+	 */
+	margin-right: 35px;
 }
