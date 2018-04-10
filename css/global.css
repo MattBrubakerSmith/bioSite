@@ -132,6 +132,8 @@ button:hover {
 	flex-wrap: none;
 	align-items: center;
 	justify-content: center;
+
+
 }
 
 .text-card h3 {
@@ -139,7 +141,11 @@ button:hover {
 }
 
 .wide-card {
-	min-width: 60%;
+	min-width: 55%;
+}
+
+.test-card {
+	min-width: 40%;
 }
 
 /* Navigation */
@@ -248,6 +254,7 @@ header h1 {
 .perspective-content-block > div:last-of-type {
 	/* Rotates the last child div on the Y axis from the perspective-origin of it's parent element. */
 	transform: rotateY(-12deg);
+	margin-left: 10px;
 }
 
 .perspective-content-block > div:last-of-type figure {
