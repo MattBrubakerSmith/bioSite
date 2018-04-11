@@ -1,15 +1,18 @@
 /*** ATOM STYLES ***/
 
 body {
-	max-width: 1200px;
-	margin: 0 auto;
+	margin: 0;
 }
 
 /* Text Atom Styles */
-p, a, li, button, figcaption {
+p, a, li, button, figcaption, blockquote {
 	font-family: 'Dosis', sans-serif;
 	font-weight: 300;
 	font-size: 1em;
+}
+
+blockquote {
+	font-style: italic;
 }
 
 figcaption {
@@ -23,6 +26,8 @@ figcaption {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Limelight', serif;
+	font-weight: 400;
+	margin: 0px;
 }
 
 h1 {
@@ -82,6 +87,14 @@ button:hover {
 	cursor: pointer;
 }
 
+.social-link {
+	margin: 0px 10px;
+}
+
+.social-link img {
+	width: auto;
+}
+
 /* Color Styles */
 
 .red-text {
@@ -113,9 +126,125 @@ button:hover {
 }
 
 /*** MOLECULE STYLES ***/
-/* I think I accidentally made organisms... */
 
-/* More changes to come when I implement media queries.*/
+/* Image and Text Cards */
+.image-card figure {
+	margin: 7px 0px 0px 0px;
+
+	background-color: rgb(106, 44, 62);
+
+	outline: 2px solid rgb(207, 69, 32);
+	outline-offset: 3px;
+	padding: 3px;
+}
+
+.text-card {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: none;
+	align-items: center;
+	justify-content: center;
+
+
+}
+
+.text-card h3 {
+	margin-bottom: 0px;
+}
+
+.wide-card {
+	min-width: 55%;
+}
+
+.test-card {
+	min-width: 40%;
+}
+
+/* Navigation */
+
+.main-nav {
+	width: calc(100% - 2px);
+	padding: 2px;
+	margin: 5px -1px 0px -1px;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+
+	outline: 2px solid rgb(207, 69, 32);
+	outline-offset: 2px;
+}
+
+.main-nav a {
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+
+	font-weight: 600;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+
+	background-color: rgb(106, 44, 62);
+	transition: background-color 200ms ease-out;
+}
+
+.main-nav a:hover {
+	background-color: rgb(207, 69, 32);
+}
+
+/*** ORGANISM STYLES ***/
+
+/* Main Content Section */
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0px 20px;
+}
+
+@media screen and (max-width: 480px) {
+	main {
+		padding: 0px 10px;
+	}
+}
+
+/* Header Styles */
+header {
+	margin: 30px 0px 20px 0px;
+	text-align: center;
+}
+
+header h1 {
+	font-weight: bold;
+}
+
+@media screen and (max-width: 792px) {
+	header h1 {
+		font-size: 7vw;
+	}
+
+	header h2 {
+		font-size: 5vw;
+	}
+}
+
+/* Footer Styles */
+footer {
+	background-color: lightgray;
+	padding: 20px 0px;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+footer p {
+	text-align: center;
+}
 
 /* Perspective Content Block Styles */
 .perspective-content-block {
@@ -140,35 +269,30 @@ button:hover {
 	flex-direction: row;
 	flex-flow: nowrap;
 	align-items: top;
+	justify-content: space-around;
 
-	margin-bottom: 70px;
+	margin-bottom: 90px;
 }
 
-.perspective-content-block figure {
-	/* Rotates the figure on the Y axis from the perspective-origin of it's parent element. */
+.perspective-content-block > div:first-of-type {
+	/* Rotates the first child div on the Y axis from the perspective-origin of it's parent element. */
 	transform: rotateY(12deg);
-	min-width: 65%;
-	margin: 0px;
-
-	background-color: rgb(106, 44, 62);
-
-	outline: 2px solid rgb(207, 69, 32);
-	outline-offset: 3px;
-	padding: 3px;
-	margin: 5px;
 }
 
-.perspective-content-block div {
-	/* Rotates the figure on the Y axis from the perspective-origin of it's parent element. */
+.perspective-content-block > div:last-of-type {
+	/* Rotates the last child div on the Y axis from the perspective-origin of it's parent element. */
 	transform: rotateY(-12deg);
-
-	display: flex;
-	flex-direction: column;
-	flex-wrap: none;
-	align-items: center;
-	justify-content: center;
+	margin-left: 10px;
 }
 
-.perspective-content-block div h3 {
-	margin-bottom: 0px;
+.perspective-content-block > div:last-of-type figure {
+	/* Corrects offset that causes figure to extend outside the perspective-content-block bounds when a figure is on the right.
+		Will need to be fine-tuned with media queries.
+	 */
+	margin-right: 35px;
+
+	/* Fixes strange visual bug that affects the height of images in the right card of the perspective-content-block */
+	transform: scaleY(1.1);
+	transform-origin: top;
+	-webkit-transform-origin: top;
 }

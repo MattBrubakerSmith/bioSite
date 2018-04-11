@@ -4,6 +4,66 @@
 		"selected_items":
 		[
 			[
+				"min",
+				"min-width"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"sp",
+				"space-around"
+			],
+			[
+				"spac",
+				"space-between"
+			],
+			[
+				"fle",
+				"flex-flow"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"tra",
+				"transform-origin"
+			],
+			[
+				"scale",
+				"scaleY()"
+			],
+			[
+				"text",
+				"text-shadow"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
 				"m",
 				"margin-bottom"
 			],
@@ -16,16 +76,8 @@
 				"align-items"
 			],
 			[
-				"font",
-				"font-weight"
-			],
-			[
 				"padd",
 				"padding"
-			],
-			[
-				"fle",
-				"flex-direction"
 			],
 			[
 				"per",
@@ -36,20 +88,12 @@
 				"inline"
 			],
 			[
-				"text",
-				"text-indent"
-			],
-			[
 				"rot",
 				"rotateY()"
 			],
 			[
 				"te",
 				"text-align"
-			],
-			[
-				"tra",
-				"transition"
 			],
 			[
 				"sc",
@@ -68,10 +112,6 @@
 				"red-background"
 			],
 			[
-				"margi",
-				"margin"
-			],
-			[
 				"out",
 				"outline-offset"
 			],
@@ -80,20 +120,12 @@
 				"font-size"
 			],
 			[
-				"fon",
-				"font-weight"
-			],
-			[
 				"back",
 				"background-color"
 			],
 			[
 				"h",
 				"head\tTag"
-			],
-			[
-				"tran",
-				"transform"
 			],
 			[
 				"colums",
@@ -152,15 +184,7 @@
 				"text-shadow"
 			],
 			[
-				"paddi",
-				"padding-top"
-			],
-			[
 				"margin",
-				"margin"
-			],
-			[
-				"marg",
 				"margin"
 			],
 			[
@@ -244,10 +268,6 @@
 				"max-width"
 			],
 			[
-				"ma",
-				"max-width"
-			],
-			[
 				"text-",
 				"text-decoration"
 			],
@@ -302,10 +322,6 @@
 			[
 				"trans",
 				"translateY"
-			],
-			[
-				"min",
-				"min-width"
 			],
 			[
 				"ove",
@@ -498,22 +514,6 @@
 			[
 				"err",
 				"errMsg\tlet"
-			],
-			[
-				"Json",
-				"JsonpModule\talias"
-			],
-			[
-				"da",
-				"databaseService\tproperty"
-			],
-			[
-				"Data",
-				"DatabaseService\talias"
-			],
-			[
-				"const",
-				"constructor\tkeyword"
 			]
 		]
 	},
@@ -523,16 +523,16 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1036,
+				"buffer_size": 5950,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/patterns.css",
+			"file": "patterns.html",
 			"settings":
 			{
-				"buffer_size": 217,
+				"buffer_size": 4053,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -541,7 +541,7 @@
 			"file": "css/global.css",
 			"settings":
 			{
-				"buffer_size": 2895,
+				"buffer_size": 4426,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -602,13 +602,14 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Matthew/Documents/GitHub/MattBrubakerSmith.github.io",
-		"/C/Users/Matthew/Documents/GitHub/MattBrubakerSmith.github.io/css",
-		"/C/Users/Matthew/Documents/GitHub/MattBrubakerSmith.github.io/images",
-		"/C/Users/Matthew/Documents/GitHub/MattBrubakerSmith.github.io/js"
+		"/C/Users/Matthew/Documents/GitHub/bioSite",
+		"/C/Users/Matthew/Documents/GitHub/bioSite/css"
 	],
 	"file_history":
 	[
+		"/C/Users/Matthew/Documents/GitHub/bioSite/patterns.html",
+		"/C/Users/Matthew/Documents/GitHub/bioSite/Site Copy.docx",
+		"/C/Users/Matthew/Documents/GitHub/bioSite/css/patterns.css",
 		"/C/Users/Matthew/Documents/GitHub/MattBrubakerSmith.github.io/patterns.html",
 		"/C/Users/Matthew/Documents/GitHub/MattBrubakerSmith.github.io/css/patterns.css",
 		"/C/Users/Matthew/Documents/Adobe/Adobe Media Encoder/9.0/ArchivedWorkspaces/bioSite_bradleyS/bioSite_bradleyS/patterns.html",
@@ -733,10 +734,7 @@
 		"/C/Users/Matthew/Documents/Acer/docs/site/app/store/portfolio/portfolio.js",
 		"/C/Users/Matthew/Documents/Acer/docs/site/app/media/portfolio/index.js",
 		"/C/Users/Matthew/Documents/Acer/docs/site/app/store/reducers.js",
-		"/C/Users/Matthew/Documents/Acer/docs/site/app/store/index.js",
-		"/C/Users/Matthew/Documents/Websites/AMT/app/store/index.js",
-		"/C/Users/Matthew/Documents/Websites/AMT/app/store/reducers.js",
-		"/C/Users/Matthew/Documents/Acer/docs/site/app/styles/header.less"
+		"/C/Users/Matthew/Documents/Acer/docs/site/app/store/index.js"
 	],
 	"find":
 	{
@@ -754,6 +752,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"4",
+			"\tmargin: 0px;",
+			"2",
+			"perspective-content-block",
+			"ul",
+			"div",
+			"element",
 			"Sons",
 			"700px",
 			"800px",
@@ -811,24 +816,25 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1036,
+						"buffer_size": 5950,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								887,
-								887
+								1533,
+								1533
 							]
 						],
 						"settings":
 						{
 							"open_with_edit": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 986.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -836,31 +842,31 @@
 				},
 				{
 					"buffer": 1,
-					"file": "css/patterns.css",
+					"file": "patterns.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 217,
+						"buffer_size": 4053,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								32,
-								32
+								1762,
+								1762
 							]
 						],
 						"settings":
 						{
-							"open_with_edit": true,
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1860.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -869,27 +875,28 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2895,
+						"buffer_size": 4426,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2895,
-								2895
+								3276,
+								3208
 							]
 						],
 						"settings":
 						{
 							"open_with_edit": true,
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4550.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -980,7 +987,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 175.0,
+	"side_bar_width": 138.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
