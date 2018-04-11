@@ -5,10 +5,14 @@ body {
 }
 
 /* Text Atom Styles */
-p, a, li, button, figcaption {
+p, a, li, button, figcaption, blockquote {
 	font-family: 'Dosis', sans-serif;
 	font-weight: 300;
 	font-size: 1em;
+}
+
+blockquote {
+	font-style: italic;
 }
 
 figcaption {
@@ -81,6 +85,14 @@ button {
 button:hover {
 	transform: scale(1.05, 1.05);
 	cursor: pointer;
+}
+
+.social-link {
+	margin: 0px 10px;
+}
+
+.social-link img {
+	width: auto;
 }
 
 /* Color Styles */
@@ -216,6 +228,22 @@ header h1 {
 	header h2 {
 		font-size: 5vw;
 	}
+}
+
+/* Footer Styles */
+footer {
+	background-color: lightgray;
+	padding: 20px 0px;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+footer p {
+	text-align: center;
 }
 
 /* Perspective Content Block Styles */
