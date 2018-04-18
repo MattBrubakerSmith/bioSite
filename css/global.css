@@ -195,6 +195,13 @@ button:hover {
 	background-color: rgb(207, 69, 32);
 }
 
+@media screen and (max-width: 600px) {
+	.main-nav a {
+		font-size: 4vw;
+		white-space: nowrap;
+	}
+}
+
 /*** ORGANISM STYLES ***/
 
 /* Main Content Section */
@@ -274,6 +281,10 @@ footer p {
 	margin-bottom: 90px;
 }
 
+.perspective-content-block > div {
+	transition: transform 200ms;
+}
+
 .perspective-content-block > div:first-of-type {
 	/* Rotates the first child div on the Y axis from the perspective-origin of it's parent element. */
 	transform: rotateY(12deg);
@@ -295,4 +306,54 @@ footer p {
 	transform: scaleY(1.1);
 	transform-origin: top;
 	-webkit-transform-origin: top;
+
+	transition: transform 200ms;
+}
+
+@media screen and (max-width: 792px) {
+	.perspective-content-block {
+		width: 100%;
+		flex-direction: column;
+		margin-bottom: 0px;
+	}
+
+	.perspective-content-block p {
+		align-self: left;
+	}
+
+	.perspective-content-block > div:first-of-type{
+		margin-bottom: 20px;
+		transform: rotateY(0deg);
+	}
+
+	.perspective-content-block > div:last-of-type{
+		margin-bottom: 30px;
+		margin-left: 0px;
+		transform: rotateY(0deg);
+	}
+
+	.perspective-content-block > div:last-of-type figure {
+		margin-right: 0px;
+		transform: scaleY(1);
+	}
+
+	.flex-order-1 {
+		order: 1;
+		margin-bottom: 20px !important;
+	}
+
+	.flex-order-2 {
+		order: 2;
+		margin-bottom: 30px !important;
+	}
+}
+
+@media screen and (max-width: 792px) {
+	.banner-main-image {
+		display: none;
+	}
+
+	.banner-nav-block {
+		margin-bottom: 0px !important;
+	}
 }
