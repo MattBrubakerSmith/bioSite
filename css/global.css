@@ -128,7 +128,7 @@ button:hover {
 /*** MOLECULE STYLES ***/
 
 /* Image and Text Cards */
-.image-card figure {
+figure {
 	margin: 7px 0px 0px 0px;
 
 	background-color: rgb(106, 44, 62);
@@ -209,6 +209,12 @@ main {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0px 20px;
+}
+
+@media screen and (max-width: 1400px) {
+	main {
+		width: 90%;
+	}
 }
 
 @media screen and (max-width: 480px) {
@@ -356,4 +362,34 @@ footer p {
 	.banner-nav-block {
 		margin-bottom: 0px !important;
 	}
+}
+
+/* TEST CODE */
+
+main {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+
+	perspective: 800px;
+	-webkit-perspective: 800px;
+}
+
+.left-section {
+	transform: rotateY(20deg);
+}
+
+.right-section {
+	transform: rotateY(-15deg);
+	max-width: 60%;
+}
+
+article {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+article:first-of-type {
+	margin-top: 150px;
 }
