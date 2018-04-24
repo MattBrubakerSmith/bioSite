@@ -128,7 +128,7 @@ button:hover {
 /*** MOLECULE STYLES ***/
 
 /* Image and Text Cards */
-.image-card figure {
+figure {
 	margin: 7px 0px 0px 0px;
 
 	background-color: rgb(106, 44, 62);
@@ -356,4 +356,32 @@ footer p {
 	.banner-nav-block {
 		margin-bottom: 0px !important;
 	}
+}
+
+/* TEST CODE */
+
+main {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+
+	perspective: 800px;
+	-webkit-perspective: 800px;
+}
+
+section {
+	max-width: 50%;
+}
+
+.left-section {
+	transform: rotateY(20deg);
+}
+
+.right-section {
+	transform: rotateY(-20deg);
+}
+
+article {
+	margin-top: 30px;
 }
