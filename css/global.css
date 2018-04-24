@@ -370,18 +370,20 @@ main {
 	-webkit-perspective: 800px;
 }
 
-section {
-	max-width: 50%;
-}
-
 .left-section {
 	transform: rotateY(20deg);
 }
 
 .right-section {
-	transform: rotateY(-20deg);
+	transform: rotateY(-15deg);
+	max-width: 60%;
 }
 
 article {
-	margin-top: 30px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+article:first-of-type {
+	margin-top: 150px;
 }
