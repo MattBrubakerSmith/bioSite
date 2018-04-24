@@ -211,6 +211,12 @@ main {
 	padding: 0px 20px;
 }
 
+@media screen and (max-width: 1400px) {
+	main {
+		width: 90%;
+	}
+}
+
 @media screen and (max-width: 480px) {
 	main {
 		padding: 0px 10px;
