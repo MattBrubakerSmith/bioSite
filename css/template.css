@@ -1,0 +1,44 @@
+/* Main Content Section */
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+
+	perspective: 800px;
+	-webkit-perspective: 800px;
+}
+
+@media screen and (max-width: 1400px) {
+	main {
+		width: 88%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	main {
+		width: 94%;
+	}
+}
+
+.left-section {
+	transform: rotateY(20deg);
+	-webkit-transform: rotateY(20deg);
+}
+
+.right-section {
+	transform: rotateY(-15deg);
+	-webkit-transform: rotateY(-15deg);
+	max-width: 60%;
+}
+
+@media screen and (max-width: 900px) {
+	.right-section {
+		transform: rotateY(0deg);
+		-webkit-transform: rotateY(0deg);
+		max-width: 90%;
+	}
+}

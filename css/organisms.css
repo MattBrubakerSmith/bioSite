@@ -1,0 +1,60 @@
+/*** ORGANISM STYLES ***/
+
+/* Header Styles */
+header {
+	margin: 30px 0px 20px 0px;
+	text-align: center;
+}
+
+header h1 {
+	font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+	header h1 {
+		font-size: 7vw;
+	}
+
+	header h2 {
+		font-size: 5vw;
+	}
+}
+
+/* Article Styles */
+article {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+article:first-of-type {
+	margin-top: 150px;
+}
+
+@media screen and (max-width: 900px) {
+	article {
+		margin: 50px 0px !important;
+	}
+}
+
+/* Footer Styles */
+footer {
+	background-color: lightgray;
+	padding: 20px 0px;
+	margin-top: 200px;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+footer p {
+	text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+	footer {
+		margin-top: 30px;
+	}
+}
