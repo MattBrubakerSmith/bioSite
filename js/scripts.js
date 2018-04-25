@@ -8,6 +8,13 @@
 document.addEventListener('scroll', () => UpdateLayout());
 window.addEventListener('resize', () => UpdateLayout());
 
+/* 
+	The min-width of the browser window, in pixels, 
+	where the scroll and resize events should fire.
+	The page layout changes significantly at 900px.
+*/
+let eventListenerBreakpoint = 900;
+
 // Locates the perspective-container element and assigns it a JS variable.
 let perspectiveContainer = document.getElementById("perspective-container");
 
@@ -32,6 +39,9 @@ let philosophyFigure = document.getElementById("philosophy-section-figure");
 let philosophySection = document.getElementById("philosophy");
 philosophyFigure.style.position = "absolute";
 
+// Fire initial layout update
+UpdateLayout();
+
 /* 
 	This is the function that the event listeners execute.
 	It actually just fires two other functions, but I split
@@ -39,9 +49,12 @@ philosophyFigure.style.position = "absolute";
 	single purposes. It's a similar way of thinking to atomic design.
 */
 function UpdateLayout(){
-	console.log("yep")
-	UpdatePerspectiveOrigin();
-	UpdateFigureVerticalPositions();
+	// Only fire these functions if the browser window is 901px or more.
+	if(window.innerWidth > eventListenerBreakpoint)
+	{
+		UpdatePerspectiveOrigin();
+		UpdateFigureVerticalPositions();
+	}
 }
 
 /* 

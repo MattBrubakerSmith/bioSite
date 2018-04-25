@@ -10,7 +10,10 @@
 		Donovan K. Smith, Jr. - Architect, Father, Weirdo
 	</title>
 	<link href="https://fonts.googleapis.com/css?family=Dosis:300,600|Limelight" rel="stylesheet">
-	<link rel="stylesheet" href="css/global.css" />
+	<link rel="stylesheet" href="css/atoms.css" />
+	<link rel="stylesheet" href="css/molecules.css" />
+	<link rel="stylesheet" href="css/organisms.css" />
+	<link rel="stylesheet" href="css/template.css" />
 </head>
 <body>
 	<header>
@@ -22,7 +25,7 @@
 		</h2>
 	</header>
 		<main id="perspective-container">
-			<section class="left-section">
+			<section class="left-section larger-displays-only">
 				<div class="main-nav">
 					<a href="#man">
 						The Man
@@ -40,14 +43,12 @@
 						Van Smith!
 					</figcaption>
 				</figure>
-				<div id="man-section-figure">
-					<figure>	
-						<img src="images/people/dks-n-fam.jpg" alt="Van Smith n' Fam!" />
-						<figcaption>
-							Van Smith n' Fam!
-						</figcaption>
-					</figure>
-				</div>
+				<figure id="man-section-figure">	
+					<img src="images/people/dks-n-fam.jpg" alt="Van Smith n' Fam!" />
+					<figcaption>
+						Van Smith n' Fam!
+					</figcaption>
+				</figure>
 				<figure id="career-section-figure">	
 					<img src="images/projects/winnie-palmer1.jpg" alt="Winnie Palmer Hospital Design Mockup" />
 					<figcaption>
@@ -62,13 +63,36 @@
 				</figure>
 			</section>
 			<section class="right-section">
-				<figure>	
+				<figure class="larger-displays-only">	
 					<img src="images/projects/winnie-palmer3.jpg" alt="Winnie Palmer Hospital Design" />
 					<figcaption>
 						Winnie Palmer Hospital - Women's Care
 					</figcaption>
 				</figure>
+				<div class="main-nav small-displays-only">
+					<a href="#man">
+						The Man
+					</a>
+					<a href="#career">
+						The Career
+					</a>
+					<a href="#philosophy">
+						The Philosophy
+					</a>
+				</div>
+				<figure id="van-image" class="small-displays-only">	
+					<img src="images/people/dks.jpg" alt="Van Smith" />
+					<figcaption>
+						Van Smith!
+					</figcaption>
+				</figure>
 				<article id="man">
+					<figure class="small-displays-only">	
+						<img src="images/people/dks-n-fam.jpg" alt="Van Smith n' Fam!" />
+						<figcaption>
+							Van Smith n' Fam!
+						</figcaption>
+					</figure>
 					<h3>The Man</h3>
 					<p>
 						Donovan K. Smith, Jr. was born in 1952 and raised in Lancaster, Pennsylvania for the entirety of his childhood. His father was an artist as well as an architect, and his mother was a model, a mother, and a model mother.
@@ -80,8 +104,14 @@
 						Van has been happily married to his wife, Teresa, for over 41 years. Together they reared three boys into three man-shaped boys. In his own words, "I hate (love) my sons, and the woman who made them possible."
 					</p>
 				</article>
-				<hr />
+				<hr class="larger-displays-only" />
 				<article id="career">
+					<figure class="small-displays-only">	
+						<img src="images/projects/winnie-palmer1.jpg" alt="Winnie Palmer Hospital Design Mockup" />
+						<figcaption>
+							Donovan's grandson Sawyer's birthplace
+						</figcaption>
+					</figure>
 					<h3>The Career</h3>
 					<p>
 						The Career goals of Donovan (henceforth Van) were originally in the field of engineering. But one year into college, he "realized [his] talents, abilities, and interests were most attuned to architecture."
@@ -96,8 +126,14 @@
 						In fact, the Winnie Palmer Women's Health facility project that Donovan worked on would become his first grandson's birthplace!
 					</p>
 				</article>
-				<hr />
+				<hr class="larger-displays-only" />
 				<article id="philosophy">
+					<figure class="small-displays-only">	
+						<img src="images/projects/winnie-palmer2.jpg" alt="Winnie Palmer Hospital Design Mockup" />
+						<figcaption>
+							Winnie Palmer - Van's philosophies in action
+						</figcaption>
+					</figure>
 					<h3>The Philosophy</h3>
 					<p>
 						The Philosophy that Donovan (that's Van to you) brings to healthcare architecture is refined to the finest detail. As a layman of the architectural world, I find I can only comprehend so much before my brain attempts to detonate. But what I can understand, is that his ideas are comprehensive and cutting edge.

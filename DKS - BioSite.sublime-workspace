@@ -4,16 +4,40 @@
 		"selected_items":
 		[
 			[
+				"paddi",
+				"padding"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"ro",
+				"rotateY()"
+			],
+			[
 				"min",
 				"min-width"
 			],
 			[
 				"font",
 				"font-size"
-			],
-			[
-				"marg",
-				"margin"
 			],
 			[
 				"sp",
@@ -60,10 +84,6 @@
 				"flex-direction"
 			],
 			[
-				"paddi",
-				"padding-bottom"
-			],
-			[
 				"m",
 				"margin-bottom"
 			],
@@ -74,10 +94,6 @@
 			[
 				"align",
 				"align-items"
-			],
-			[
-				"padd",
-				"padding"
 			],
 			[
 				"per",
@@ -102,10 +118,6 @@
 			[
 				"ou",
 				"outline"
-			],
-			[
-				"ro",
-				"rotateZ()"
 			],
 			[
 				"re",
@@ -188,10 +200,6 @@
 				"margin"
 			],
 			[
-				"i",
-				"italic"
-			],
-			[
 				"li",
 				"link\tTag"
 			],
@@ -214,10 +222,6 @@
 			[
 				"cente",
 				"centerX"
-			],
-			[
-				"mar",
-				"margin-left"
 			],
 			[
 				"backgroun",
@@ -510,10 +514,6 @@
 			[
 				"hea",
 				"Headers\talias"
-			],
-			[
-				"err",
-				"errMsg\tlet"
 			]
 		]
 	},
@@ -523,25 +523,43 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5950,
+				"buffer_size": 7306,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "patterns.html",
+			"file": "css/atoms.css",
 			"settings":
 			{
-				"buffer_size": 4053,
+				"buffer_size": 1871,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/global.css",
+			"file": "css/molecules.css",
 			"settings":
 			{
-				"buffer_size": 4426,
+				"buffer_size": 887,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/organisms.css",
+			"settings":
+			{
+				"buffer_size": 780,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/template.css",
+			"settings":
+			{
+				"buffer_size": 674,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -603,11 +621,14 @@
 	"expanded_folders":
 	[
 		"/C/Users/Matthew/Documents/GitHub/bioSite",
-		"/C/Users/Matthew/Documents/GitHub/bioSite/css"
+		"/C/Users/Matthew/Documents/GitHub/bioSite/css",
+		"/C/Users/Matthew/Documents/GitHub/bioSite/js"
 	],
 	"file_history":
 	[
+		"/C/Users/Matthew/Documents/GitHub/bioSite/js/scripts.js",
 		"/C/Users/Matthew/Documents/GitHub/bioSite/patterns.html",
+		"/C/Users/Matthew/Documents/GitHub/bioSite/css/global.css",
 		"/C/Users/Matthew/Documents/GitHub/bioSite/Site Copy.docx",
 		"/C/Users/Matthew/Documents/GitHub/bioSite/css/patterns.css",
 		"/C/Users/Matthew/Documents/GitHub/MattBrubakerSmith.github.io/patterns.html",
@@ -732,9 +753,7 @@
 		"/C/Users/Matthew/Documents/Acer/docs/site/.babelrc",
 		"/C/Users/Matthew/Documents/Websites/AMT/package.json",
 		"/C/Users/Matthew/Documents/Acer/docs/site/app/store/portfolio/portfolio.js",
-		"/C/Users/Matthew/Documents/Acer/docs/site/app/media/portfolio/index.js",
-		"/C/Users/Matthew/Documents/Acer/docs/site/app/store/reducers.js",
-		"/C/Users/Matthew/Documents/Acer/docs/site/app/store/index.js"
+		"/C/Users/Matthew/Documents/Acer/docs/site/app/media/portfolio/index.js"
 	],
 	"find":
 	{
@@ -752,6 +771,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"transform",
+			"true",
+			", { passive: true }",
+			"true",
+			"add",
 			"4",
 			"\tmargin: 0px;",
 			"2",
@@ -816,15 +840,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5950,
+						"buffer_size": 7306,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1533,
-								1533
+								5299,
+								5299
 							]
 						],
 						"settings":
@@ -834,7 +858,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 986.0,
+						"translation.y": 2340.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -842,48 +866,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "patterns.html",
+					"file": "css/atoms.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4053,
+						"buffer_size": 1871,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1762,
-								1762
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1860.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "css/global.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4426,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3276,
-								3208
+								283,
+								283
 							]
 						],
 						"settings":
@@ -893,7 +888,95 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4550.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/molecules.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 887,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								887,
+								887
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 720.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/organisms.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 780,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								461,
+								461
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/template.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 674,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								337,
+								337
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
