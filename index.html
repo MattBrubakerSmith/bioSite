@@ -26,7 +26,7 @@
 	</header>
 		<main id="perspective-container">
 			<section class="left-section larger-displays-only">
-				<div class="main-nav">
+				<div class="main-nav" role="navigation">
 					<a href="#man">
 						The Man
 					</a>
@@ -37,25 +37,25 @@
 						The Philosophy
 					</a>
 				</div>
-				<figure>	
+				<figure role="button">	
 					<img src="images/people/dks.jpg" alt="Van Smith" />
 					<figcaption>
 						Van Smith!
 					</figcaption>
 				</figure>
-				<figure id="man-section-figure">	
+				<figure id="man-section-figure" role="button">	
 					<img src="images/people/dks-n-fam.jpg" alt="Van Smith n' Fam!" />
 					<figcaption>
 						Van Smith n' Fam!
 					</figcaption>
 				</figure>
-				<figure id="career-section-figure">	
+				<figure id="career-section-figure" role="button">	
 					<img src="images/projects/winnie-palmer1.jpg" alt="Winnie Palmer Hospital Design Mockup" />
 					<figcaption>
 						Donovan's grandson Sawyer's birthplace
 					</figcaption>
 				</figure>
-				<figure id="philosophy-section-figure">	
+				<figure id="philosophy-section-figure" role="button">	
 					<img src="images/projects/winnie-palmer2.jpg" alt="Winnie Palmer Hospital Design Mockup" />
 					<figcaption>
 						Winnie Palmer - Van's philosophies in action
@@ -63,7 +63,7 @@
 				</figure>
 			</section>
 			<section class="right-section">
-				<figure class="larger-displays-only">	
+				<figure class="larger-displays-only" role="button">	
 					<img src="images/projects/winnie-palmer3.jpg" alt="Winnie Palmer Hospital Design" />
 					<figcaption>
 						Winnie Palmer Hospital - Women's Care
@@ -80,14 +80,14 @@
 						The Philosophy
 					</a>
 				</div>
-				<figure id="van-image" class="small-displays-only">	
+				<figure id="van-image" class="small-displays-only" role="button">	
 					<img src="images/people/dks.jpg" alt="Van Smith" />
 					<figcaption>
 						Van Smith!
 					</figcaption>
 				</figure>
 				<article id="man">
-					<figure class="small-displays-only">	
+					<figure class="small-displays-only" role="button">	
 						<img src="images/people/dks-n-fam.jpg" alt="Van Smith n' Fam!" />
 						<figcaption>
 							Van Smith n' Fam!
@@ -106,7 +106,7 @@
 				</article>
 				<hr class="larger-displays-only" />
 				<article id="career">
-					<figure class="small-displays-only">	
+					<figure class="small-displays-only" role="button">	
 						<img src="images/projects/winnie-palmer1.jpg" alt="Winnie Palmer Hospital Design Mockup" />
 						<figcaption>
 							Donovan's grandson Sawyer's birthplace
@@ -128,8 +128,8 @@
 				</article>
 				<hr class="larger-displays-only" />
 				<article id="philosophy">
-					<figure class="small-displays-only">	
-						<img src="images/projects/winnie-palmer2.jpg" alt="Winnie Palmer Hospital Design Mockup" />
+					<figure class="small-displays-only" role="button">	
+						<img src="images/projects/winnie-palmer2.jpg" alt="Winnie Palmer Hospital Design Mockup"/>
 						<figcaption>
 							Winnie Palmer - Van's philosophies in action
 						</figcaption>
@@ -158,8 +158,8 @@
 			<img src="images/icons/kth-arch-logo.png" alt="Donovan Smith - KTH Architects" />
 		</a>
 	</footer>
-	<div id="figure-modal">
-		<button id="figure-modal-close-button">X</button>
+	<div id="figure-modal" tabindex="0" aria-hidden="true">
+		<button id="figure-modal-close-button" aria-label="Close">&#x2716;</button>
 	</div>
 	<script type="text/javascript" src="js/scripts.js"></script>
 </body>
