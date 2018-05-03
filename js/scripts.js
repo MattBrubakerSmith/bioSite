@@ -77,6 +77,10 @@ function showFigureModal(figure) {
 	// Makes the figure visible and in flex mode.
 	figureModal.style.display = "flex";
 
+	// Sets aria-hidden and switches focus
+	figureModal.setAttribute("aria-hidden", "false");
+	figureModal.focus();
+
 	// Prevents the user from scrolling the page. I switch it back upon modal close.
 	document.body.style.overflow = "hidden";
 
@@ -119,6 +123,7 @@ function closeFigureModal() {
 
 	// Makes the modal disappear
 	figureModal.style.display = "none";
+	figureModal.setAttribute("aria-hidden", "true");
 
 	// Allows the user to scroll the page again
 	document.body.style.overflow = "initial";
