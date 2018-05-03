@@ -58,3 +58,30 @@ footer p {
 		margin-top: 30px;
 	}
 }
+
+/* Figure Modal Styles */
+#figure-modal {
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+
+	background-color: rgba(0,0,0,.8);
+	z-index: 1;
+}
+
+#figure-modal figure {
+	max-width: 90vw;
+	max-height: 80vh;
+	overflow: hidden;
+}
+
+#figure-modal-close-button {
+	align-self: flex-end;
+}
