@@ -9,6 +9,8 @@ figure {
 	outline: 2px solid rgb(207, 69, 32);
 	outline-offset: 3px;
 	padding: 3px;
+
+	cursor: pointer;
 }
 
 /* Navigation */
